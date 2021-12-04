@@ -1,0 +1,98 @@
+@import "./variables";
+
+.home-link {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.restaurant-img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+}
+
+.menu-box {
+    border-radius: 75px;
+    position: relative;
+    top: -120px;
+    background-color: #F6F6F6;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    & h1 {
+        font-size: 56px;
+        margin-left: 40px;
+    }
+    & .meal-type {
+        margin-left: 40px;
+        margin-bottom: 15px;
+    }
+    & .green-line {
+        width: 80px;
+        height: 6px;
+        background-color: $tertiary;
+        margin-left:40px;
+        margin-bottom:30px;
+    }
+    & .cards {
+        width: 93.5%;
+        border-radius: 26px;
+        margin: 20px auto;
+        padding-left: 25px;
+        background-color: #FFFFFF;
+        box-shadow: 2px 2px 15px #B6B6B6;
+        overflow:hidden;
+        display:flex;
+        & .meal-text {
+            width:max-content;
+            flex: 1 3;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        & .meal-name {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            padding-right: 20px;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        & .meal-description {
+            margin-top: 10px;
+            margin-bottom: 25px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        & .meal-price {
+            margin-right: 45px;
+            margin-bottom: 25px;
+            align-self:flex-end;
+            flex-shrink: 0;
+        }
+        .meal-checked {
+            width: 0;
+            background-color: $tertiary;
+            display:flex;
+            vertical-align: middle;
+            transition: width 500ms;
+            & i {
+                margin: auto;
+                color: #FFFFFF;
+                transition: transform 350ms 150ms;
+            }
+        }
+        &:hover {
+            & .meal-checked {
+                width: 120px;
+            }
+            & i {
+                transform: rotate(1turn);
+            }
+        }
+    }
+    
+    
+}
+
