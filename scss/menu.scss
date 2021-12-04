@@ -1,5 +1,9 @@
 @import "./variables";
 
+body {
+    background-color: #F6F6F6;
+}
+
 .home-link {
     position: absolute;
     top: 50px;
@@ -18,12 +22,13 @@
     top: -120px;
     background-color: #F6F6F6;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
     & h1 {
         font-size: 56px;
         margin-left: 40px;
     }
     & .meal-type {
+        margin-top: 70px;
         margin-left: 40px;
         margin-bottom: 15px;
     }
@@ -37,10 +42,11 @@
     & .cards {
         width: 93.5%;
         border-radius: 26px;
-        margin: 20px auto;
+        margin: 30px auto;
         padding-left: 25px;
         background-color: #FFFFFF;
         box-shadow: 2px 2px 15px #B6B6B6;
+        cursor: pointer;
         overflow:hidden;
         display:flex;
         & .meal-text {
@@ -92,7 +98,13 @@
             }
         }
     }
-    
-    
+    & .cta-min {
+        text-align: center;
+    }
+    & .cta__button {
+        margin-bottom: 0;
+        margin-top: 62px;
+        padding: 30px 98px;
+    }
 }
 

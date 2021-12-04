@@ -1,3 +1,7 @@
+body {
+  background-color: #F6F6F6;
+}
+
 .home-link {
   position: absolute;
   top: 50px;
@@ -17,7 +21,7 @@
   top: -120px;
   background-color: #F6F6F6;
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 .menu-box h1 {
@@ -26,6 +30,7 @@
 }
 
 .menu-box .meal-type {
+  margin-top: 70px;
   margin-left: 40px;
   margin-bottom: 15px;
 }
@@ -41,11 +46,12 @@
 .menu-box .cards {
   width: 93.5%;
   border-radius: 26px;
-  margin: 20px auto;
+  margin: 30px auto;
   padding-left: 25px;
   background-color: #FFFFFF;
   -webkit-box-shadow: 2px 2px 15px #B6B6B6;
           box-shadow: 2px 2px 15px #B6B6B6;
+  cursor: pointer;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,5 +123,15 @@
 .menu-box .cards:hover i {
   -webkit-transform: rotate(1turn);
           transform: rotate(1turn);
+}
+
+.menu-box .cta-min {
+  text-align: center;
+}
+
+.menu-box .cta__button {
+  margin-bottom: 0;
+  margin-top: 62px;
+  padding: 30px 98px;
 }
 /*# sourceMappingURL=menu.css.map */
