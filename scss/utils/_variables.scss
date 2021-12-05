@@ -1,0 +1,84 @@
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiary: #eafffa;
+
+@keyframes unset-loader {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes unset-border {
+    to{
+        border:unset;
+    }
+}
+
+@keyframes unset-border {
+    to{
+        border:unset;
+    }
+}
+
+@keyframes set-content {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes progress-bar {
+    0% {
+        background-position: -17px;
+        animation-timing-function: cubic-bezier(.37,.12,.62,.82);
+    }
+    30% {
+        background-position: 90px;
+        animation-timing-function: cubic-bezier(.57,.3,.61,.73);
+    }
+    55% {
+        background-position: 235px;
+        animation-timing-function: cubic-bezier(.28,.19,0,1);
+    }
+    100% {
+        background-position: 278px;
+    }
+}
+
+@keyframes twist-bar {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes spin-box {
+    0% {
+        transform-origin: center 210px;
+        transform: rotate(0);
+    }
+    
+    60%, 100% {
+        transform-origin: center 210px;
+        transform: rotate(1turn);
+    }
+    100% {
+        transform-origin: center 210px;
+        transform: rotate(1turn);
+    }
+}
+@keyframes spin-plate {
+    from{
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
