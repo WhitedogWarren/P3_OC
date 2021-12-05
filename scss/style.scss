@@ -130,7 +130,6 @@ header {
     text-align: center;
     padding: 50px 60px 0 60px;
     background: linear-gradient(to bottom, #ffffff 50%, #F2F2F2 120%);
-    
     & .slogan {
         font-size: 48px;
         font-weight: bold;
@@ -237,7 +236,6 @@ header {
         margin-top: 94px;
         margin-left: 44px;
     }
-    
     & .card-list {
         display: flex;
         flex-wrap: wrap;
@@ -299,7 +297,6 @@ header {
                 top: 45px;
                 right: 45px;
                 & .fas {
-                    z-index: -1;
                     position: absolute;
                     top: 3px;
                     left: 0;
@@ -315,7 +312,6 @@ header {
                 &:hover {
                     & .fas {
                         opacity: 1;
-                        
                     }
                 }
             }
@@ -323,13 +319,10 @@ header {
     }
 }
 
-
-
 footer {
     background-color: #353535;
     padding-bottom: 75px;
     padding-top: 50px;
-    
     & h3 {
         margin: 0 50px;
         color: #FFFFFF;

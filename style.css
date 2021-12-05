@@ -567,7 +567,6 @@ header {
 }
 
 .restaurants .cards .card-label .like-box .fas {
-  z-index: -1;
   position: absolute;
   top: 3px;
   left: 0;
