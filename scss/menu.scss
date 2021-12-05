@@ -23,6 +23,38 @@ body {
     background-color: #F6F6F6;
     padding-top: 25px;
     padding-bottom: 0;
+    & .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position:relative;
+        & .like-box {
+            font-size: 60px;
+            position: absolute;
+            top: calc(50% - 30px);
+            right: 45px;
+            & .fas {
+                font-size: 54px;
+                position: absolute;
+                top: 8px;
+                left: 3px;
+                color: #9c47fc;
+                display: block;
+                background: linear-gradient(to top, #ff79da 0%, #9356dc 120%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                opacity: 0;
+                transition: opacity 400ms;
+            }
+            &:hover {
+                & .fas {
+                    opacity: 1;
+                    
+                }
+            }
+        }
+    }
     & h1 {
         font-size: 56px;
         margin-left: 40px;
@@ -107,4 +139,3 @@ body {
         padding: 30px 98px;
     }
 }
-

@@ -36,19 +36,22 @@
 
 @-webkit-keyframes set-content {
   from {
-    width: 0;
+    height: 0;
   }
   to {
-    width: 100%;
+    height: -webkit-fit-content;
+    height: fit-content;
   }
 }
 
 @keyframes set-content {
   from {
-    width: 0;
+    height: 0;
   }
   to {
-    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 
@@ -218,7 +221,6 @@ header {
 
 .awaited {
   background-color: #F2F2F2;
-  width: 0;
   overflow: hidden;
   -webkit-animation: set-content 0ms 2400ms both;
           animation: set-content 0ms 2400ms both;
@@ -494,21 +496,21 @@ header {
   row-gap: 36px;
 }
 
-.restaurants .card-list a, .restaurants .card-lista:visited {
+.restaurants .card-list a, .restaurants .card-list a:visited {
   text-decoration: none;
   color: #000000;
   -webkit-transition: all 200ms;
   transition: all 200ms;
 }
 
-.restaurants .card-list a:hover, .restaurants .card-lista:visited:hover {
-  color: #00eab2;
+.restaurants .card-list a:hover, .restaurants .card-list a:visited:hover {
+  color: #1b6150;
 }
 
-.restaurants .card-list a:hover .cards, .restaurants .card-lista:visited:hover .cards {
-  background-color: white;
-  -webkit-box-shadow: 4px 4px 20px #00b78b;
-          box-shadow: 4px 4px 20px #00b78b;
+.restaurants .card-list a:hover .cards, .restaurants .card-list a:visited:hover .cards {
+  background-color: #e8f9f5;
+  -webkit-box-shadow: 4px 4px 20px #10392f;
+          box-shadow: 4px 4px 20px #10392f;
 }
 
 .restaurants .cards {
@@ -549,8 +551,8 @@ header {
   border-radius: 4px;
   font-weight: bold;
   font-size: 22px;
-  background-color: #eafffa;
-  color: #1effc9;
+  background-color: #99E2D0;
+  color: #278870;
 }
 
 .restaurants .cards .card-label {
@@ -565,6 +567,7 @@ header {
 }
 
 .restaurants .cards .card-label .like-box .fas {
+  z-index: -1;
   position: absolute;
   top: 3px;
   left: 0;
@@ -576,8 +579,8 @@ header {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms;
 }
 
 .restaurants .cards .card-label .like-box:hover .fas {
@@ -617,6 +620,6 @@ footer a, footer a:visited {
 }
 
 footer a:hover, footer a:visited:hover {
-  color: #eafffa;
+  color: #99E2D0;
 }
 /*# sourceMappingURL=style.css.map */

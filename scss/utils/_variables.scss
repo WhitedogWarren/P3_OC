@@ -1,6 +1,6 @@
 $primary: #9356DC;
 $secondary: #FF79DA;
-$tertiary: #eafffa;
+$tertiary: #99E2D0;
 
 @keyframes unset-loader {
     from {
@@ -25,10 +25,10 @@ $tertiary: #eafffa;
 
 @keyframes set-content {
     from {
-        width: 0;
+        height: 0;
     }
     to {
-        width: 100%;
+        height: fit-content;
     }
 }
 

@@ -35,7 +35,6 @@ header {
 
 .awaited {
     background-color: #F2F2F2;
-    width: 0;
     overflow: hidden;
     animation: set-content 0ms 2400ms both;
 }
@@ -244,7 +243,7 @@ header {
         flex-wrap: wrap;
         justify-content: space-evenly;
         row-gap: 36px;
-        & a, &a:visited {
+        & a, & a:visited {
             text-decoration: none;
             color: #000000;
             transition: all 200ms;
@@ -300,6 +299,7 @@ header {
                 top: 45px;
                 right: 45px;
                 & .fas {
+                    z-index: -1;
                     position: absolute;
                     top: 3px;
                     left: 0;
@@ -310,7 +310,7 @@ header {
                     background-clip: text;
                     -webkit-text-fill-color: transparent;
                     opacity: 0;
-                    transition: opacity 300ms;
+                    transition: opacity 400ms;
                 }
                 &:hover {
                     & .fas {
