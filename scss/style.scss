@@ -45,68 +45,37 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba($color: #F6F6F6, $alpha: 0.8);
+    background-color: rgba($color: #F6F6F6, $alpha: 0.9);
     overflow: hidden;
-    & .loader-box {
-        width: 300px;
-        height: 40px;
-        margin: auto;
-        border: 1px solid black;
-        border-radius: 20px;
-        overflow:hidden;
-        display: flex;
-        align-items: center;
-        position: absolute;
-        &__bar {
-            background-color: lightseagreen;
-            width: 294px;
-            height: 34px;
-            margin: auto;
-            border-radius: 17px;
-            background-image: url("./images/spinner/filter.png");
-            background-repeat: no-repeat;
-            animation: progress-bar 2400ms 150ms both;
-            & img {
-                transform: translateX(-300px);
-                animation: twist-bar 2400ms linear infinite;
-            }
-        }
-        animation: unset-border 0ms 2400ms both;
-    }
-    & .box1 {
-        top: calc(50% - 210px);
-        left: calc(50% - 150px);
-        z-index: 4;
-        animation: spin-box 1600ms ease-in-out infinite;
-    }
-    & .box2 {
-        opacity: 0.7;
-        top: calc(50% - 210px);
-        left: calc(50% - 150px);
-        z-index: 3;
-        animation: spin-box 1600ms 100ms  ease-in-out infinite;
-    }
-    & .box3 {
-        opacity: 0.4;
-        top: calc(50% - 210px);
-        left: calc(50% - 150px);
-        z-index: 2;
-        animation: spin-box 1600ms 200ms  ease-in-out infinite;
-    }
-    & .box4 {
-        opacity: 0.1;
-        top: calc(50% - 210px);
-        left: calc(50% - 150px);
-        z-index: 1;
-        animation: spin-box 1600ms 300ms  ease-in-out infinite;
-    }
-    & .plate {
-        position: absolute;
-        top: calc(50% - 32px);
-        left: calc(50% - 26px);
-        animation: spin-plate 1600ms linear infinite;
-    }
     animation: unset-loader 0ms 2400ms both;
+}
+
+.blade {
+    @include blade-style();
+    border-left: 10px solid #9356DC;
+    animation: blade-rotate 1000ms linear infinite;
+}
+
+.blade2 {
+    @include blade-style();
+    border-left: 10px solid #FF79DA;
+    animation: blade-rotate2 1000ms linear infinite;
+}
+
+.blade3 {
+    @include blade-style();
+    border-left: 10px solid #99E2D0;
+    animation: blade-rotate3 1000ms linear infinite;
+}
+
+.center-dot {
+    position: absolute;
+    top: calc(50% - 16px);
+    left: calc(50% - 13px);
+}
+
+#spinner-icon {
+    font-size: 32px;
 }
 
 #searchbar {
@@ -155,6 +124,7 @@ header {
         cursor: pointer;
         &:hover {
             /*background: linear-gradient(to bottom, lighten($secondary, 8%) -20%, lighten($primary, 5%) 120%);*/
+            /* optimisé en utilisant un overlay blanc translucide */
             box-shadow: 4px 4px 20px #606060;
             & .cta__button--bg {
                 opacity: 0.3;
