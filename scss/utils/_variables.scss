@@ -107,37 +107,52 @@ $tertiary: #99E2D0;
 
 @keyframes blade-rotate2 {
     0% {
-        transform: translate(15px, -15px) skew(15deg, 15deg) rotate(120deg);
+        transform: translate(10px, -18px) skew(15deg, 15deg) rotate(120deg);
     }
     25% {
-        transform: translate(15px, -15px) skew(15deg, -15deg) rotate(300deg);
+        transform: translate(10px, -18px) skew(15deg, -15deg) rotate(300deg);
     }
     50% {
-        transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(480deg);
+        transform: translate(10px, -18px) skew(-15deg, -15deg) rotate(480deg);
     }
     75% {
-        transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(660deg);
+        transform: translate(10px, -18px) skew(-15deg, 15deg) rotate(660deg);
     }
     100%{
-        transform: translate(15px, -15px) skew(15deg, 15deg) rotate(840deg);
+        transform: translate(10px, -18px) skew(15deg, 15deg) rotate(840deg);
     }
 }
 
 @keyframes blade-rotate3 {
     0% {
-        transform: translate(15px, 15px) skew(15deg, 15deg) rotate(240deg);
+        transform: translate(10px, 18px) skew(15deg, 15deg) rotate(240deg);
     }
     25% {
-        transform: translate(15px, -15px) skew(15deg, -15deg) rotate(420deg);
+        transform: translate(10px, 18px) skew(15deg, -15deg) rotate(420deg);
     }
     50% {
-        transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(600deg);
+        transform: translate(10px, 18px) skew(-15deg, -15deg) rotate(600deg);
     }
     75% {
-        transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(780deg);
+        transform: translate(10px, 18px) skew(-15deg, 15deg) rotate(780deg);
     }
     100%{
-        transform: translate(15px, 15px) skew(15deg, 15deg) rotate(960deg);
+        transform: translate(10px, 18px) skew(15deg, 15deg) rotate(960deg);
+    }
+}
+
+@function calcul-tout-simple($arg) {
+    @return 150+$arg*200ms;
+}
+
+@keyframes set-menucards {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
 

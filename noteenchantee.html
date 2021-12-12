@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="menu.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -12,8 +13,11 @@
     <body>
         <header><!-- Placez ici le contenu de l'en-tête de votre page -->
             <div id="site-banner">
-                <div class="home-link"><a href="index.html" title="revenir à l'accueil"><i class="fas fa-arrow-left"></i></a></div>
-                <div id="site-logo"></div>
+                <div id="nav-back"><a href="index.html" title="revenir à l'accueil"><i class="fas fa-arrow-left"></i></a></div>
+                <div id="site-logo">
+                    <img src="images/logo/ohmyfood.png" alt="logo ohmyfood" />
+                </div>
+                <div id="nav-forward"></div>
             </div>
 		</header>
 		<main>
@@ -22,120 +26,136 @@
                 <div class="heading">
                     <h1>La note enchantée</h1>
                     <div class="like-box">
-                        <i class="fas fa-heart"></i>
-                        <i class="far fa-heart"></i>
+                        <span class="fa-stack fa-1x">
+                            <i class="fas fa-heart fa-stack-1x"></i>
+                            <i class="far fa-heart fa-stack-1x"></i>
+                        </span>
                     </div>
                 </div>
-                <p class="meal-type">ENTR&Eacute;ES</p>
-                <div class="green-line"></div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Ravioles de foie gras</div>
-                        <div class="meal-description">Accompagnés de leur crème à la truffe</div>
+                <div class="meals-box">
+                    <div>
+                        <p class="meal-type">ENTR&Eacute;ES</p>
+                        <div class="green-line"></div>
+                        <div class="meals">
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Ravioles de foie gras</div>
+                                    <div class="meal-description">Accompagnés de leur crème à la truffe</div>
+                                </div>
+                                <div class="meal-price">
+                                    25€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Caviar osciètre</div>
+                                    <div class="meal-description">Sur blini à la farine de blé noir</div>
+                                </div>
+                                <div class="meal-price">
+                                    35€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Homard et espuma de potiron</div>
+                                    <div class="meal-description">Mariné aux zestes d'orange</div>
+                                </div>
+                                <div class="meal-price">
+                                    20€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Foie gras de canard cuit entier</div>
+                                    <div class="meal-description">Confiture de figues et pain toasté</div>
+                                </div>
+                                <div class="meal-price">
+                                    35€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-price">
-                        25€
+                    <div>
+                        <p class="meal-type">PLATS</p>
+                        <div class="green-line"></div>
+                        <div class="meals">
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Noix de coquilles Saint-Jacques</div>
+                                    <div class="meal-description">Sur lit de purée de céleri-rave</div>
+                                </div>
+                                <div class="meal-price">
+                                    40€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Langoustine poêlée</div>
+                                    <div class="meal-description">Purée de patate douce</div>
+                                </div>
+                                <div class="meal-price">
+                                    35€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Mijoté de queue de boeuf</div>
+                                    <div class="meal-description">Et riz sauvage aux zestes de citron</div>
+                                </div>
+                                <div class="meal-price">
+                                    44€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Caviar osciètre</div>
-                        <div class="meal-description">Sur blini à la farine de blé noir</div>
+                    <div>
+                        <p class="meal-type">DESSERTS</p>
+                        <div class="green-line"></div>
+                        <div class="meals">
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Macaron noisette et chocolat</div>
+                                    <div class="meal-description">Glace au caramel brun et sel de Guérande</div>
+                                </div>
+                                <div class="meal-price">
+                                    18€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Baba au rhum revisité</div>
+                                    <div class="meal-description">Avec son coulis de citron</div>
+                                </div>
+                                <div class="meal-price">
+                                    22€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Tarte au citron meringuée</div>
+                                    <div class="meal-description">Déstructurée</div>
+                                </div>
+                                <div class="meal-price">
+                                    23€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-price">
-                        35€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Homard et espuma de potiron</div>
-                        <div class="meal-description">Mariné aux zestes d'orange</div>
-                    </div>
-                    <div class="meal-price">
-                        20€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Foie gras de canard cuit entier</div>
-                        <div class="meal-description">Confiture de figues et pain toasté</div>
-                    </div>
-                    <div class="meal-price">
-                        35€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <p class="meal-type">PLATS</p>
-                <div class="green-line"></div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Noix de coquilles Saint-Jacques</div>
-                        <div class="meal-description">Sur lit de purée de céleri-rave</div>
-                    </div>
-                    <div class="meal-price">
-                        40€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Langoustine poêlée</div>
-                        <div class="meal-description">Purée de patate douce</div>
-                    </div>
-                    <div class="meal-price">
-                        35€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Mijoté de queue de boeuf</div>
-                        <div class="meal-description">Et riz sauvage aux zestes de citron</div>
-                    </div>
-                    <div class="meal-price">
-                        44€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <p class="meal-type">DESSERTS</p>
-                <div class="green-line"></div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Macaron noisette et chocolat</div>
-                        <div class="meal-description">Glace au caramel brun et sel de Guérande</div>
-                    </div>
-                    <div class="meal-price">
-                        18€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Baba au rhum revisité</div>
-                        <div class="meal-description">Avec son coulis de citron</div>
-                    </div>
-                    <div class="meal-price">
-                        22€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Tarte au citron meringuée</div>
-                        <div class="meal-description">Déstructurée</div>
-                    </div>
-                    <div class="meal-price">
-                        23€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
                 </div>
                 <div class="cta-min">
                     <button class="cta__button">
                         Commander
-                        <div class="cta__button--bg"></div>
+                        <span class="cta__button--bg"></span>
                     </button>
                 </div>
             </div>

@@ -233,100 +233,126 @@
 
 @-webkit-keyframes blade-rotate2 {
   0% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, 15deg) rotate(120deg);
-            transform: translate(15px, -15px) skew(15deg, 15deg) rotate(120deg);
+    -webkit-transform: translate(10px, -18px) skew(15deg, 15deg) rotate(120deg);
+            transform: translate(10px, -18px) skew(15deg, 15deg) rotate(120deg);
   }
   25% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, -15deg) rotate(300deg);
-            transform: translate(15px, -15px) skew(15deg, -15deg) rotate(300deg);
+    -webkit-transform: translate(10px, -18px) skew(15deg, -15deg) rotate(300deg);
+            transform: translate(10px, -18px) skew(15deg, -15deg) rotate(300deg);
   }
   50% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(480deg);
-            transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(480deg);
+    -webkit-transform: translate(10px, -18px) skew(-15deg, -15deg) rotate(480deg);
+            transform: translate(10px, -18px) skew(-15deg, -15deg) rotate(480deg);
   }
   75% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(660deg);
-            transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(660deg);
+    -webkit-transform: translate(10px, -18px) skew(-15deg, 15deg) rotate(660deg);
+            transform: translate(10px, -18px) skew(-15deg, 15deg) rotate(660deg);
   }
   100% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, 15deg) rotate(840deg);
-            transform: translate(15px, -15px) skew(15deg, 15deg) rotate(840deg);
+    -webkit-transform: translate(10px, -18px) skew(15deg, 15deg) rotate(840deg);
+            transform: translate(10px, -18px) skew(15deg, 15deg) rotate(840deg);
   }
 }
 
 @keyframes blade-rotate2 {
   0% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, 15deg) rotate(120deg);
-            transform: translate(15px, -15px) skew(15deg, 15deg) rotate(120deg);
+    -webkit-transform: translate(10px, -18px) skew(15deg, 15deg) rotate(120deg);
+            transform: translate(10px, -18px) skew(15deg, 15deg) rotate(120deg);
   }
   25% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, -15deg) rotate(300deg);
-            transform: translate(15px, -15px) skew(15deg, -15deg) rotate(300deg);
+    -webkit-transform: translate(10px, -18px) skew(15deg, -15deg) rotate(300deg);
+            transform: translate(10px, -18px) skew(15deg, -15deg) rotate(300deg);
   }
   50% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(480deg);
-            transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(480deg);
+    -webkit-transform: translate(10px, -18px) skew(-15deg, -15deg) rotate(480deg);
+            transform: translate(10px, -18px) skew(-15deg, -15deg) rotate(480deg);
   }
   75% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(660deg);
-            transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(660deg);
+    -webkit-transform: translate(10px, -18px) skew(-15deg, 15deg) rotate(660deg);
+            transform: translate(10px, -18px) skew(-15deg, 15deg) rotate(660deg);
   }
   100% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, 15deg) rotate(840deg);
-            transform: translate(15px, -15px) skew(15deg, 15deg) rotate(840deg);
+    -webkit-transform: translate(10px, -18px) skew(15deg, 15deg) rotate(840deg);
+            transform: translate(10px, -18px) skew(15deg, 15deg) rotate(840deg);
   }
 }
 
 @-webkit-keyframes blade-rotate3 {
   0% {
-    -webkit-transform: translate(15px, 15px) skew(15deg, 15deg) rotate(240deg);
-            transform: translate(15px, 15px) skew(15deg, 15deg) rotate(240deg);
+    -webkit-transform: translate(10px, 18px) skew(15deg, 15deg) rotate(240deg);
+            transform: translate(10px, 18px) skew(15deg, 15deg) rotate(240deg);
   }
   25% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, -15deg) rotate(420deg);
-            transform: translate(15px, -15px) skew(15deg, -15deg) rotate(420deg);
+    -webkit-transform: translate(10px, 18px) skew(15deg, -15deg) rotate(420deg);
+            transform: translate(10px, 18px) skew(15deg, -15deg) rotate(420deg);
   }
   50% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(600deg);
-            transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(600deg);
+    -webkit-transform: translate(10px, 18px) skew(-15deg, -15deg) rotate(600deg);
+            transform: translate(10px, 18px) skew(-15deg, -15deg) rotate(600deg);
   }
   75% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(780deg);
-            transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(780deg);
+    -webkit-transform: translate(10px, 18px) skew(-15deg, 15deg) rotate(780deg);
+            transform: translate(10px, 18px) skew(-15deg, 15deg) rotate(780deg);
   }
   100% {
-    -webkit-transform: translate(15px, 15px) skew(15deg, 15deg) rotate(960deg);
-            transform: translate(15px, 15px) skew(15deg, 15deg) rotate(960deg);
+    -webkit-transform: translate(10px, 18px) skew(15deg, 15deg) rotate(960deg);
+            transform: translate(10px, 18px) skew(15deg, 15deg) rotate(960deg);
   }
 }
 
 @keyframes blade-rotate3 {
   0% {
-    -webkit-transform: translate(15px, 15px) skew(15deg, 15deg) rotate(240deg);
-            transform: translate(15px, 15px) skew(15deg, 15deg) rotate(240deg);
+    -webkit-transform: translate(10px, 18px) skew(15deg, 15deg) rotate(240deg);
+            transform: translate(10px, 18px) skew(15deg, 15deg) rotate(240deg);
   }
   25% {
-    -webkit-transform: translate(15px, -15px) skew(15deg, -15deg) rotate(420deg);
-            transform: translate(15px, -15px) skew(15deg, -15deg) rotate(420deg);
+    -webkit-transform: translate(10px, 18px) skew(15deg, -15deg) rotate(420deg);
+            transform: translate(10px, 18px) skew(15deg, -15deg) rotate(420deg);
   }
   50% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(600deg);
-            transform: translate(15px, -15px) skew(-15deg, -15deg) rotate(600deg);
+    -webkit-transform: translate(10px, 18px) skew(-15deg, -15deg) rotate(600deg);
+            transform: translate(10px, 18px) skew(-15deg, -15deg) rotate(600deg);
   }
   75% {
-    -webkit-transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(780deg);
-            transform: translate(15px, -15px) skew(-15deg, 15deg) rotate(780deg);
+    -webkit-transform: translate(10px, 18px) skew(-15deg, 15deg) rotate(780deg);
+            transform: translate(10px, 18px) skew(-15deg, 15deg) rotate(780deg);
   }
   100% {
-    -webkit-transform: translate(15px, 15px) skew(15deg, 15deg) rotate(960deg);
-            transform: translate(15px, 15px) skew(15deg, 15deg) rotate(960deg);
+    -webkit-transform: translate(10px, 18px) skew(15deg, 15deg) rotate(960deg);
+            transform: translate(10px, 18px) skew(15deg, 15deg) rotate(960deg);
+  }
+}
+
+@-webkit-keyframes set-menucards {
+  from {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes set-menucards {
+  from {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
   }
 }
 
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -335,28 +361,12 @@ h1, h2, h3 {
 
 input {
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 header {
   background-color: #F2F2F2;
-}
-
-#site-banner {
-  background-color: #FFFFFF;
-  -webkit-box-shadow: 2px 2px 10px #EAEAEA;
-          box-shadow: 2px 2px 10px #EAEAEA;
-  position: relative;
-}
-
-#site-logo {
-  width: 330px;
-  margin: auto;
-  background-size: 100%;
-  background-image: url("images/logo/ohmyfood.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 128px;
 }
 
 .awaited {
@@ -427,9 +437,76 @@ header {
   font-size: 32px;
 }
 
+#site-banner {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 10px #D9D9D9;
+          box-shadow: 2px 2px 10px #D9D9D9;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#site-logo {
+  width: 44%;
+  margin: auto;
+  padding-top: 22px;
+  padding-bottom: 12px;
+}
+
+#site-logo img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #site-logo {
+    padding-top: 36px;
+    padding-bottom: 18px;
+  }
+}
+
+.like-box {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  font-size: 26px;
+}
+
+.like-box .fa-stack {
+  height: 1em;
+  line-height: 1em;
+  width: 1.5em;
+}
+
+.like-box .fas {
+  color: #9c47fc;
+  display: block;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #ff79da), to(#9356dc));
+  background: linear-gradient(to top, #ff79da 30%, #9356dc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+.like-box:hover .fas {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .like-box {
+    font-size: 32px;
+  }
+}
+
 #searchbar {
   text-align: center;
-  padding: 28px 0;
+  padding: 20px 0;
   background-color: #F2F2F2;
 }
 
@@ -446,28 +523,34 @@ header {
   outline: none;
 }
 
+@media screen and (min-width: 768px) {
+  #searchbar, #searchbar input {
+    font-size: 20px;
+  }
+}
+
 .cta {
-  height: 524px;
   text-align: center;
-  padding: 50px 60px 0 60px;
+  padding: 24px 30px 16px 30px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(120%, #F2F2F2));
   background: linear-gradient(to bottom, #ffffff 50%, #F2F2F2 120%);
 }
 
 .cta .slogan {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: bold;
-  padding: 0 40px;
-  margin: 10px 0;
+  padding: 0 20px;
+  margin: 12px 0;
 }
 
 .cta .catchphrase {
-  font-size: 36px;
+  font-size: 18px;
+  margin: 12px 0;
 }
 
 .cta__button {
-  font-size: 34px;
-  padding: 30px 44px;
+  font-size: 16px;
+  padding: 16px 22px;
   margin: 20px auto;
   border: none;
   border-radius: 56px;
@@ -498,6 +581,7 @@ header {
 }
 
 .cta__button--bg {
+  display: block;
   position: absolute;
   top: 0;
   right: 0;
@@ -510,26 +594,45 @@ header {
   transition: opacity 300ms;
 }
 
+@media screen and (min-width: 768px) {
+  .cta {
+    padding: 35px 40px 24px 40px;
+  }
+  .cta .slogan {
+    font-size: 36px;
+  }
+  .cta .catchphrase {
+    font-size: 24px;
+  }
+  .cta__button {
+    font-size: 24px;
+    padding: 24px 32px;
+  }
+}
+
+.functioning {
+  background-color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
 .functioning .header {
   font-weight: bolder;
-  font-size: 44px;
-  margin-top: 94px;
-  margin-left: 44px;
+  font-size: 22px;
+  margin-left: 22px;
 }
 
 .functioning .card-list {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 90%;
   margin: 0 auto;
-  margin-bottom: 140px;
 }
 
 .functioning .cards {
-  width: 650px;
+  width: 90%;
+  margin: auto;
   margin-top: 50px;
-  padding: 54px 0;
-  border-radius: 40px;
+  padding: 26px 0;
+  border-radius: 20px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(120%, #F2F2F2));
   background: linear-gradient(to top, #ffffff 50%, #F2F2F2 120%);
   -webkit-box-shadow: 4px 4px 10px #F2F2F2;
@@ -549,8 +652,8 @@ header {
 
 .functioning .cards-icons {
   position: absolute;
-  top: 50px;
-  left: -25px;
+  top: 25px;
+  left: -12px;
   color: #7E7E7E;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -561,8 +664,8 @@ header {
 }
 
 .functioning .cards-icons .bullet {
-  width: 50px;
-  height: 50px;
+  width: 24px;
+  height: 24px;
   color: #FFFFFF;
   border-radius: 25px;
   background-color: #9356DC;
@@ -578,23 +681,43 @@ header {
 }
 
 .functioning .cards-icons .fas {
-  margin-left: 40px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .functioning .header {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .functioning .cards {
+    width: 60%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .functioning .header {
+    margin-left: 120px;
+  }
 }
 
 .restaurants {
   background-color: #F6F6F6;
   padding-top: 16px;
-  padding-bottom: 130px;
+  padding-bottom: 60px;
 }
 
 .restaurants .header {
   font-weight: bolder;
-  font-size: 44px;
-  margin-top: 94px;
-  margin-left: 44px;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 22px;
 }
 
 .restaurants .card-list {
+  width: 90%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,11 +746,17 @@ header {
           box-shadow: 4px 4px 20px #10392f;
 }
 
+.restaurants .card-list > div {
+  width: 100%;
+}
+
 .restaurants .cards {
-  width: 672px;
+  width: 100%;
   margin: auto;
-  border-radius: 26px;
+  border-radius: 14px;
   background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 15px #B6B6B6;
+          box-shadow: 2px 2px 15px #B6B6B6;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 200ms;
@@ -637,73 +766,108 @@ header {
 .restaurants .cards img {
   border: none;
   width: 100%;
-  height: 350px;
+  height: 176px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .restaurants .cards .header {
   font-weight: bold;
-  font-size: 38px;
-  margin-left: 30px;
+  font-size: 22px;
+  display: inline-block;
+  margin: 0 15px;
 }
 
 .restaurants .cards .address {
-  font-size: 30px;
-  margin-left: 30px;
+  font-size: 16px;
+  margin-left: 15px;
 }
 
 .restaurants .cards .new-label {
   position: absolute;
-  top: 25px;
-  right: 25px;
-  padding: 15px 25px;
+  top: 12px;
+  right: 12px;
+  padding: 8px 12px;
   border-radius: 4px;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 12px;
   background-color: #99E2D0;
   color: #278870;
 }
 
 .restaurants .cards .card-label {
   position: relative;
-  padding: 32px 0;
+  padding: 16px 0;
 }
 
-.restaurants .cards .card-label .like-box {
-  position: absolute;
-  top: 45px;
-  right: 45px;
+@media screen and (min-width: 768px) {
+  .restaurants .header {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .restaurants .card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  .restaurants .card-list > div {
+    width: 47.5%;
+  }
+  .restaurants .cards .header {
+    margin-bottom: 10px;
+  }
 }
 
-.restaurants .cards .card-label .like-box .fas {
-  position: absolute;
-  top: 3px;
-  left: 0;
-  color: #9c47fc;
-  display: block;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff79da), color-stop(120%, #9356dc));
-  background: linear-gradient(to top, #ff79da 0%, #9356dc 120%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 0;
-  -webkit-transition: opacity 400ms;
-  transition: opacity 400ms;
+@media screen and (min-width: 1024px) {
+  .restaurants .card-list {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .restaurants .card-list > div {
+    width: 40%;
+  }
+  .restaurants .cards img {
+    height: 300px;
+  }
+  .restaurants .cards .new-label {
+    top: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+  .restaurants .cards .header {
+    font-size: 24px;
+    letter-spacing: .06em;
+    word-spacing: .2rem;
+    margin-left: 30px;
+  }
+  .restaurants .cards .address {
+    font-size: 18px;
+    margin-left: 30px;
+  }
 }
 
-.restaurants .cards .card-label .like-box:hover .fas {
-  opacity: 1;
+@media screen and (min-width: 1366px) {
+  .restaurants .header {
+    margin-left: 120px;
+  }
 }
 
 footer {
   background-color: #353535;
-  padding-bottom: 75px;
-  padding-top: 50px;
+  padding-top: 24px;
+  padding-bottom: 18px;
 }
 
 footer h3 {
-  margin: 0 50px;
+  margin: 0 24px;
   color: #FFFFFF;
   font-weight: normal;
 }
@@ -711,16 +875,16 @@ footer h3 {
 footer ul {
   list-style: none;
   padding: 0;
-  margin: 30px 50px;
+  margin: 12px 24px;
 }
 
 footer li {
-  margin: 20px 0;
+  margin: 10px 0;
   padding: 0;
 }
 
 footer li i {
-  width: 50px;
+  width: 24px;
 }
 
 footer a, footer a:visited {
@@ -730,5 +894,32 @@ footer a, footer a:visited {
 
 footer a:hover, footer a:visited:hover {
   color: #99E2D0;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    padding: 30px 40px;
+  }
+  footer h3 {
+    font-size: 24px;
+  }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer li {
+    display: inline-block;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  footer h3 {
+    margin-left: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

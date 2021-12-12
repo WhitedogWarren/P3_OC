@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
@@ -12,8 +12,11 @@
     <body>
         <header><!-- Placez ici le contenu de l'en-tête de votre page -->
             <div id="site-banner">
-                <div class="home-link"><a href="index.html" title="revenir à l'accueil"><i class="fas fa-arrow-left"></i></a></div>
-                <div id="site-logo"></div>
+                <div id="nav-back"><a href="index.html" title="revenir à l'accueil"><i class="fas fa-arrow-left"></i></a></div>
+                <div id="site-logo">
+                    <img src="images/logo/ohmyfood.png" alt="logo ohmyfood" />
+                </div>
+                <div id="nav-forward"></div>
             </div>
 		</header>
 		<main>
@@ -22,110 +25,126 @@
                 <div class="heading">
                     <h1>Le délice des sens</h1>
                     <div class="like-box">
-                        <i class="fas fa-heart"></i>
-                        <i class="far fa-heart"></i>
+                        <span class="fa-stack fa-1x">
+                            <i class="fas fa-heart fa-stack-1x"></i>
+                            <i class="far fa-heart fa-stack-1x"></i>
+                        </span>
                     </div>
                 </div>
-                <p class="meal-type">ENTR&Eacute;ES</p>
-                <div class="green-line"></div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Tartare de thon</div>
-                        <div class="meal-description">Assaisonné au yuzu</div>
+                <div class="meals-box">
+                    <div>
+                        <p class="meal-type">ENTR&Eacute;ES</p>
+                        <div class="green-line"></div>
+                        <div class="meals">
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Tartare de thon</div>
+                                    <div class="meal-description">Assaisonné au yuzu</div>
+                                </div>
+                                <div class="meal-price">
+                                    25€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Bouchée de homard croustillant</div>
+                                    <div class="meal-description">Et sa farandole de petit légumes</div>
+                                </div>
+                                <div class="meal-price">
+                                    35€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Velouté de cèpes</div>
+                                    <div class="meal-description">Aux truffes</div>
+                                </div>
+                                <div class="meal-price">
+                                    20€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-price">
-                        25€
+                    <div>
+                        <p class="meal-type">PLATS</p>
+                        <div class="green-line"></div>
+                        <div class="meals">
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Poulet rôti aux herbes de Provence</div>
+                                    <div class="meal-description">Et sa crème de truffe</div>
+                                </div>
+                                <div class="meal-price">
+                                    40€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Langouste rôtie</div>
+                                    <div class="meal-description">Et ses légumes de saison</div>
+                                </div>
+                                <div class="meal-price">
+                                    35€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Côte de boeuf Angus</div>
+                                    <div class="meal-description">Et sa purée de panais</div>
+                                </div>
+                                <div class="meal-price">
+                                    44€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Bouchée de homard croustillant</div>
-                        <div class="meal-description">Et sa farandole de petit légumes</div>
+                    <div>
+                        <p class="meal-type">DESSERTS</p>
+                        <div class="green-line"></div>
+                        <div class="meals">
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Farandole de desserts</div>
+                                    <div class="meal-description">Du chef</div>
+                                </div>
+                                <div class="meal-price">
+                                    18€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Crème brûlée</div>
+                                    <div class="meal-description">Revisitée</div>
+                                </div>
+                                <div class="meal-price">
+                                    22€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                            <div class="cards">
+                                <div class="meal-text">
+                                    <div class="meal-name">Tiramisu</div>
+                                    <div class="meal-description">À la noisette</div>
+                                </div>
+                                <div class="meal-price">
+                                    23€
+                                </div>
+                                <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-price">
-                        35€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Velouté de cèpes</div>
-                        <div class="meal-description">Aux truffes</div>
-                    </div>
-                    <div class="meal-price">
-                        20€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <p class="meal-type">PLATS</p>
-                <div class="green-line"></div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Poulet rôti aux herbes de Provence</div>
-                        <div class="meal-description">Et sa crème de truffe</div>
-                    </div>
-                    <div class="meal-price">
-                        40€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Langouste rôtie</div>
-                        <div class="meal-description">Et ses légumes de saison</div>
-                    </div>
-                    <div class="meal-price">
-                        35€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Côte de boeuf Angus</div>
-                        <div class="meal-description">Et sa purée de panais</div>
-                    </div>
-                    <div class="meal-price">
-                        44€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <p class="meal-type">DESSERTS</p>
-                <div class="green-line"></div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Farandole de desserts</div>
-                        <div class="meal-description">Du chef</div>
-                    </div>
-                    <div class="meal-price">
-                        18€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Crème brûlée</div>
-                        <div class="meal-description">Revisitée</div>
-                    </div>
-                    <div class="meal-price">
-                        22€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
-                </div>
-                <div class="cards">
-                    <div class="meal-text">
-                        <div class="meal-name">Tiramisu</div>
-                        <div class="meal-description">À la noisette</div>
-                    </div>
-                    <div class="meal-price">
-                        23€
-                    </div>
-                    <div class="meal-checked"><i class="fas fa-check-circle"></i></div>
                 </div>
                 <div class="cta-min">
                     <button class="cta__button">
                         Commander
-                        <div class="cta__button--bg"></div>
+                        <span class="cta__button--bg"></span>
                     </button>
                 </div>
             </div>
