@@ -644,6 +644,7 @@ header {
 .functioning .cards:hover {
   background: unset;
   background-color: #f4eefc;
+  cursor: pointer;
 }
 
 .functioning .cards:hover .cards-icons {

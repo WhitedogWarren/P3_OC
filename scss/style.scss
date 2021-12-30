@@ -234,6 +234,7 @@ header {
         &:hover {
             background: unset;
             background-color: lighten($color: $primary, $amount: 36%);
+            cursor: pointer;
             & .cards-icons {
                 color: $primary;
             }
